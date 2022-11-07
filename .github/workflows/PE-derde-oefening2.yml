@@ -38,7 +38,7 @@ jobs:
       run: docker build -t webservice3 .
       
     - name: Tag docker image
-      run: docker tag webservice authumnn/webservice3
+      run: docker tag webservice3 authumnn/webservice3
       
     - name: Push docker image
       run: docker push authumnn/webservice3
